@@ -223,6 +223,7 @@ def main(page: ft.Page):
     show_app()
 
 
-ft.app(target=main)
+ft.app(target=main, view=ft.WEB_BROWSER)
+
 
 print("\nTipe data variabel 'nama_peserta' adalah:", type(nama_peserta))
